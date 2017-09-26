@@ -9,6 +9,7 @@ from scrapy import Item, Field
 
 
 class UserItem(Item):
+    
     # define the fields for your item here like:
     id = Field()
     name = Field()
