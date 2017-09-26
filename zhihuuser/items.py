@@ -9,7 +9,7 @@ from scrapy import Item, Field
 
 
 class UserItem(Item):
-    
+    badge1 = Field()
     # define the fields for your item here like:
     id = Field()
     name = Field()
